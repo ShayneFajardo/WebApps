@@ -1,0 +1,94 @@
+@import url(Fonts.css);
+
+@mixin Cleanspace {
+    margin: 0;
+    padding: 0;
+};
+
+*{
+    @include Cleanspace();
+}
+main{
+    height: 100vh;
+    width: 50;
+}
+.Signup{ 
+    @include Cleanspace();
+    display: flex;
+    justify-content: end;
+    z-index: 3;}
+
+.Signup form { 
+    font-family: 'Theater';
+    color: rgb(66, 74, 33);
+    margin-top: 30vh;
+    margin-right: 12vw;
+    display: flex;
+    flex-direction: column;
+    justify-self: center;
+    justify-items: center;
+    justify-content: center;
+    z-index: 3;
+}
+
+.Signup form input{
+    @include Cleanspace();
+    margin: .75vh 2vw;
+    padding: 3vh 2vw;
+    width: 13vw;
+    display: flex;
+    font-size: 1.75rem;
+    font-family: 'OrganicTeabags';
+    text-align: center;
+    border-radius: 35px;
+    border: none;
+    z-index: 3;
+}
+.Signup form .sbt-btn{
+    padding: 2vh 3vw;
+    text-align: center;
+    justify-content: center;
+}
+.Signup form .btn-signin{
+    margin: .75vh 0vw;
+    padding: 2vh 3vw;
+    border-radius: 35px;
+    border: none;
+}
+.Signup form .LoginFormStyle{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.Signup form .LoginFormStyle p{
+    text-align: right;
+    width: 12.5vw;
+    font-size: 2.75rem;
+}
+
+.Signup form .option-box{
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+}
+.Signup form .opt-btn{
+    font-family: 'Theater';
+    color: rgb(66, 74, 33);
+    border-color: 2px solid black;
+    background-color: whitesmoke;
+    text-decoration: none;
+    font-size: 2.75rem;
+}
+.notif_txt{
+    margin-left: 12vw;
+    align-self: center;
+    font-size: 1.8rem;
+}
+.bg_banner{
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    height: 100vh;
+    width: 99.9vw;
+    z-index: 1;
+}

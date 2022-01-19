@@ -1,0 +1,290 @@
+@import url(Fonts.css);
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #e9f3f4;
+}
+
+.MainNav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  right: 0;
+  position: absolute;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  text-align: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  height: auto;
+  width: 20vw;
+  background-color: rgba(0, 0, 0, 0);
+}
+
+.MainNav #UserDisplay {
+  font-size: 2rem;
+  font-family: 'Heyhaters';
+}
+
+.MainNav button {
+  position: relative;
+  margin: 1.5vh auto;
+  padding: 1vh 2.25vw;
+  background-color: #405e65;
+  border: none;
+  font-size: 1.75rem;
+  color: white;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  border-radius: 35px;
+  text-align: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -ms-grid-column-align: center;
+      justify-self: center;
+  justify-items: center;
+  text-align: center;
+}
+
+#Profile_picture {
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 120%;
+  height: 12vh;
+  width: 6vw;
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
+  border-radius: 55%;
+}
+
+.MainNav .btn3 {
+  font-size: 1rem;
+  padding: 1vh 1.75vw;
+}
+
+.MainNav #Profile_picture img {
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 120%;
+  height: 12vh;
+  width: 6vw;
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
+  border-radius: 55%;
+}
+
+.img_wrapper {
+  background-color: rgba(0, 0, 0, 0);
+  background-image: url(../Assets/MainTimeline_page/1642236766451.png);
+  background-repeat: no-repeat;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  position: fixed;
+  z-index: -10;
+  right: 0;
+  bottom: 0;
+  height: 42vh;
+  width: 32vw;
+}
+
+.Timeline_container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  margin-top: 2.75vh;
+  margin-left: 2.75vw;
+  padding: 5vh 5vw;
+  height: 120vh;
+  width: 60vw;
+  -webkit-box-shadow: 10px 10px 5px grey;
+          box-shadow: 10px 10px 5px grey;
+  background-color: white;
+  border-color: 5px solid #332d28;
+  border-radius: 35px;
+  z-index: 100;
+}
+
+.Post_Box {
+  margin: 1vh 1vw;
+  padding: 1vh 1vw;
+  border-radius: 35px;
+  background-color: rgba(0, 0, 0, 0);
+  width: 55vw;
+  overflow-y: auto;
+  z-index: 99;
+}
+
+#photo {
+  display: hidden;
+}
+
+.Post_Box .Update_box {
+  margin: 4vh 0vw;
+  padding: 2vh 0vw;
+  border-radius: 15px;
+  background-color: #e9f3f4;
+  width: 100%;
+}
+
+.Post_Box .Update_box .Media_wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.Post_Box .Update_box .Media_wrapper button,
+.Post_Box .Update_box .Media_wrapper input {
+  margin: 0.5vh .75vw;
+  padding: 1vh 1.25vw;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-item-align: center;
+      align-self: center;
+  border-radius: 25px;
+  border: none;
+  background-color: #7a9aa0;
+  font-family: 'Heyhaters';
+  font-size: 1.2rem;
+}
+
+.Post_Box .Update_box .Media_wrapper label {
+  overflow: hidden;
+}
+
+.Post_Box .Update_box .Media_wrapper .btn1 {
+  background-color: #90bbce;
+  overflow: hidden;
+}
+
+.Post_Box .Update_box .Media_wrapper .btn2 {
+  background-color: #9dcdbf;
+}
+
+.Post_Box .Update_box form {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  background-color: rgba(0, 0, 0, 0);
+}
+
+.Post_Box .Update_box form div {
+  background-color: rgba(0, 0, 0, 0);
+}
+
+.Post_Box .Update_box form .txt_Wrapper textarea {
+  margin: 1vh 2vw;
+  padding: 1.25vh .25vw;
+  background-color: white;
+  border-radius: 15px;
+  border: none;
+  overflow: auto;
+  overflow-x: hidden;
+  overflow-wrap: break-word;
+  height: 10vh;
+  width: 90%;
+}
+
+.Post_Box .TL_Viewbox {
+  height: 80%;
+  width: 100%;
+  background-color: #e9f3f4;
+  border-radius: 15px;
+  overflow: scroll;
+}
+
+.Timeline_container .sidebar {
+  background-color: white;
+  width: 25vw;
+}
+
+.Timeline_container .sidebar p {
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 1.5rem;
+}
+
+.Timeline_container .sidebar h1 {
+  padding: 0vh .25vw;
+  font-size: 8.25rem;
+  font-family: 'Forque';
+  color: #405e65;
+}
+
+.Timeline_container .sidebar h1, .Timeline_container .sidebar p {
+  background-color: rgba(0, 0, 0, 0);
+}
+
+#post {
+  background-color: white;
+  margin: 1vh .5vw;
+  padding: 2vh 1vw;
+  border-radius: 45px;
+  min-height: 15vh;
+}
+
+.Main_Box {
+  padding: 1.25vh .75vw;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  height: 15vh;
+}
+
+.Main_Box .img_holder img {
+  width: 5vw;
+  height: 10vh;
+  border-radius: 50%;
+  border: 2px solid black;
+}
+
+.Option_Box {
+  padding: 2vh 1vw;
+}
+
+.post_ContentWrapper {
+  padding-left: .5vw;
+}
+
+.post_ContentWrapper p {
+  font-family: 'Theatre';
+  font-size: 1.6rem;
+  margin-left: .5vw;
+  margin-top: 1vh;
+}
+
+.post_ContentWrapper h6 {
+  font-size: 1.2rem;
+  font-family: 'HeyHaters';
+}
+/*# sourceMappingURL=Main.css.map */

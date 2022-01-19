@@ -1,0 +1,133 @@
+@import url(Fonts.css);
+* {
+  margin: 0;
+  padding: 0;
+}
+
+main {
+  height: 100vh;
+  width: 50;
+}
+
+.Signup {
+  margin: 0;
+  padding: 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: end;
+  z-index: 3;
+}
+
+.Signup form {
+  font-family: 'Theater';
+  color: #424a21;
+  margin-top: 30vh;
+  margin-right: 12vw;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  justify-self: center;
+  justify-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  z-index: 3;
+}
+
+.Signup form input {
+  margin: 0;
+  padding: 0;
+  margin: .75vh 2vw;
+  padding: 3vh 2vw;
+  width: 13vw;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  font-size: 1.75rem;
+  font-family: 'OrganicTeabags';
+  text-align: center;
+  border-radius: 35px;
+  border: none;
+  z-index: 3;
+}
+
+.Signup form .sbt-btn {
+  padding: 2vh 3vw;
+  text-align: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.Signup form .btn-signin {
+  margin: .75vh 0vw;
+  padding: 2vh 3vw;
+  border-radius: 35px;
+  border: none;
+}
+
+.Signup form .LoginFormStyle {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.Signup form .LoginFormStyle p {
+  text-align: right;
+  width: 12.5vw;
+  font-size: 2.75rem;
+}
+
+.Signup form .option-box {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: end;
+}
+
+.Signup form .opt-btn {
+  font-family: 'Theater';
+  color: #424a21;
+  border-color: 2px solid black;
+  background-color: whitesmoke;
+  text-decoration: none;
+  font-size: 2.75rem;
+}
+
+.notif_txt {
+  margin-left: 12vw;
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
+  font-size: 1.8rem;
+}
+
+.bg_banner {
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  height: 100vh;
+  width: 99.9vw;
+  z-index: 1;
+}
+/*# sourceMappingURL=Signup.css.map */

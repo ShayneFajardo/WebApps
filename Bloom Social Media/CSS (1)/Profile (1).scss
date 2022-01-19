@@ -1,0 +1,77 @@
+body{
+    background-color: rgb(243, 233, 244);
+}
+.img_wrapper2 {
+    background-color: rgba($color: #000000, $alpha: 0);
+    background-image: url(../Assets/Profilepage/PNG/1640170386871.png);
+    background-repeat: no-repeat;
+    display: flex;
+    position: fixed;
+    z-index: -10;
+    left: 0;
+    bottom: 0;
+    height: 48vh;
+    width: 32vw;
+}
+.MainNav{
+    left: 0;
+}
+#Profile_Wrapper{
+    position: absolute;
+    background-color: whitesmoke;
+    top: 5vh;
+    right: 3.5vw;
+    border-radius: 35px;
+    height: 120vh;
+    width: 76vw;
+    overflow-y: auto;
+}
+.Profile_Set{
+    margin: 4vh 4vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height: 15vh;
+    height: 15vh;
+}
+#Profile_Wrapper .Profile_Set .pfp img{
+    background-color: #000000;
+    border-radius: 50%;
+    height: 15vh;
+    width: 7.5vw;
+}
+#Profile_Wrapper .Profile_Set .pfp span{
+    display: none;
+}
+#Profile_Wrapper .Profile_Set .Details{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    position: relative;
+    left: 0;
+    width: 80%;
+}
+#Profile_Wrapper .Profile_Set .Details h2{
+    font-family: 'Heyhaters';
+}
+#Profile_Wrapper .Profile_Set .Details p{
+    font-family: 'Forque';
+}
+#edit_btn{
+    position: relative;
+    right: 0;
+    align-self: flex-end;
+}
+.Post_Box .Update_box{
+    background-color: rgb(243, 233, 244);
+}
+.Post_Box .TL_Viewbox{
+    background-color: rgb(243, 233, 244);
+}
+#edit_btn{
+    border: none;
+    background-color: none;
+    font-size: 2rem;
+    font-family: 'Theater';
+    align-self: center;
+}
